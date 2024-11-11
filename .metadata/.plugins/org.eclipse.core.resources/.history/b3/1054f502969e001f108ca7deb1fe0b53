@@ -1,0 +1,29 @@
+package StaticVariable;
+
+public class Student2 {
+	private static int autoId;
+	private int studId;
+	private String studName;
+	private int studAge;
+	
+	static{
+		autoId=100;
+	}
+	
+	
+	public Student2() {
+		autoId++;
+	}
+	
+	public Student2(int id,String name,int age) {
+		autoId++;
+		studId = studId;
+		studName = studName;
+		studAge = studAge;
+	}
+	
+	public static int getcount() {
+		return count;
+	}
+
+}

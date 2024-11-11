@@ -1,0 +1,23 @@
+package StaticVariable;
+
+public class MainStudent {
+	
+	public static void main(String[] args) {
+		System.out.println("count of student before any object: "+Student.getcount());
+		
+		Student s1 = new Student();
+		Student s2 = new Student();
+		
+		
+		s1.printInfo();
+		
+//		s2.Student();
+//		s2.printInfo();
+		
+		System.out.println("count of student after any object: "+Student.getcount());
+		
+		
+		
+	}
+
+}

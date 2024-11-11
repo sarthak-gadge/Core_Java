@@ -1,0 +1,30 @@
+package StaticVariable;
+
+public class Student2 {
+	private static int autoId;
+	private int studId;
+	private String studName;
+	private int studAge;
+	
+	static{
+		autoId=100;
+	}
+	
+	
+	public Student2() {
+		autoId++;
+		studId = autoId;
+		studName = "sarthak";
+		studAge = 22;
+				
+	}
+	
+	public Student2(int id,String name,int age) {
+		autoId++;
+		studId = autoId;
+		studName = studName;
+		studAge = studAge;
+	}
+	
+	
+}

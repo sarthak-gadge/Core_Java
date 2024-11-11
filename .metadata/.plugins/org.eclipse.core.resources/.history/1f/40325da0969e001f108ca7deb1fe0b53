@@ -1,0 +1,20 @@
+package StaticVariable;
+
+public class MainStudent2 {
+	public static void main(String[] args) {
+		
+		
+		Student2 s3 = new Student2();
+		Student2 s4 = new Student2();
+		
+		
+		
+
+		
+	
+		
+		
+		
+	}
+
+}

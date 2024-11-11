@@ -1,0 +1,26 @@
+package Constructor_and_This;
+
+public class MainEmployee {
+	
+public static void main(String[] args) {
+		
+		Employee e1 = new Employee();
+		
+		int empId = e1.getempId();
+		String empName = e1.getempName();
+		int empSalary = e1.getempSalary();
+		String empJob = e1.getempJob();
+		
+		System.out.println("Employee ID :"+empId);
+		System.out.println("Employee Name :"+empName);
+		System.out.println("Employee Salary :"+empSalary);
+		System.out.println("Employee Job :"+empJob);
+		
+		System.out.println("========================================");
+		
+		Employee e2 = new Employee(512,"Sarthak",65000,"HR");
+		
+		e2.printInfo();
+	}
+
+}
