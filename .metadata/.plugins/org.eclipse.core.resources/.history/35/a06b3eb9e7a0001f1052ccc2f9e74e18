@@ -1,0 +1,13 @@
+package ToStringMethod;
+
+public class MainMyDate {
+	
+	public static void main(String[] args) {
+		
+		MyDate m1 = new MyDate();
+		
+		System.out.println(m1);
+		
+	}
+
+}
