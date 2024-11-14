@@ -1,0 +1,27 @@
+package Inheritance;
+
+public class Employeee {
+	
+
+	private int basicSalary;
+	private int hra;
+	private int da;
+	
+	
+	
+	//using Parametarized Constructor
+	public Employeee(int basicSalary, int hra, int da) {
+		super();
+		this.basicSalary = basicSalary;
+		this.hra = hra;
+		this.da = da;
+	}
+
+
+
+
+	public int calculateSalary() {
+		return basicSalary+hra+da;
+	}
+
+}

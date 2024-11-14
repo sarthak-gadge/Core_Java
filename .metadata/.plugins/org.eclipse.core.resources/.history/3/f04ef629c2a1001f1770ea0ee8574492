@@ -1,0 +1,18 @@
+package Inheritance;
+
+public class Managerrr extends Employeee {
+	private int incentive;
+
+	
+//using Parametarized Constructor
+	public Managerrr(int basicSalary, int hra, int da, int incentive) {
+		super(basicSalary, hra, da);
+		this.incentive = incentive;
+	}
+
+
+
+	public int getIncentive() {
+		return incentive;
+	}
+}
