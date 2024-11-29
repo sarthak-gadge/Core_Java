@@ -1,0 +1,21 @@
+package InstanceOf;
+
+import java.util.Scanner;
+
+public class MainEmpManDev {
+	int choice;
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Menu:");
+		System.out.println("1. create Manager");
+		System.out.println("2. create Developer");
+		System.out.println("3. Exit");
+		System.out.println("Enter Your Choice: ");
+		 choice = sc.nextInt();
+		
+	}
+
+}

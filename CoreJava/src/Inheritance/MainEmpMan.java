@@ -7,7 +7,7 @@ public class MainEmpMan {
 		Employee e1 = new Employee();
 		e1.calculateSalary();
 		
-
+		
 		Manager mgr = new Manager();
 		int inc = mgr.getIncentive();
 		int sal = mgr.calculateSalary();

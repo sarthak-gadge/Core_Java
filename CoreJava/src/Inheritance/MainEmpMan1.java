@@ -8,10 +8,10 @@ public class MainEmpMan1 {
 		
 // using parametarized constructor
 		Manager1 mgr = new Manager1(45200,5500,456,8000);
-		int inc = mgr.getIncentive();
-		int sal = mgr.calculateSalary();
+		
+		int sal = mgr.getIncentive();
 
-		System.out.println("Salary of Manager: " + (inc + sal));
+		System.out.println("Salary of Manager: " + sal);
 
 	}
 

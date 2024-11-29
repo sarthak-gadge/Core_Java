@@ -1,0 +1,25 @@
+package constructorHomework;
+
+public class Manager extends Employee {
+	
+	private int incentive;
+
+	public Manager(int basicSal, int hra, int da, int incentive) {
+		super(basicSal,hra,da);
+		this.incentive = incentive;
+	}
+	
+	@Override
+	public int CalculateSalary() {
+		return super.CalculateSalary() + incentive;
+	}
+	
+	public int getIncentive() {
+		return incentive;
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,15 @@
+package AnonymousInnerClass;
+
+public class MainFerarri {
+
+	public static void main(String[] args) {
+
+		Ferrari p = new Ferrari() {
+
+			public void drive() {
+				System.out.println("anonymous Class");
+			}
+		};
+	}
+
+}

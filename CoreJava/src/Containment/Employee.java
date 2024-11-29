@@ -21,8 +21,7 @@ public class Employee {
 		this.empId = empId;
 		this.empName = empName;
 		this.empSalary = empSalary;
-		this.joiningDate = joiningDate;
-	}
+		this.joiningDate = new MyDate();	}
 
 	@Override
 	public String toString() {

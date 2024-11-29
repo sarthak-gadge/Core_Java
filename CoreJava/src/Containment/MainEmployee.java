@@ -13,11 +13,11 @@ public class MainEmployee {
 		
 		
 //		using parametarized constructor
-		MyDate m = new MyDate(01,01,2001);
-		Employee e2 = new Employee(147,"Ravi",82000,m);
+//		MyDate m = new MyDate(01,01,2001);
+		Employee e2 = new Employee(147,"Ravi",82000,new MyDate(01,01,2001));
 		System.out.println(e2);
 		
-		
+
 		
 		
 	}

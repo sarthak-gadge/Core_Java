@@ -1,0 +1,17 @@
+package ExceptionHandling;
+
+public class Throw {
+	
+	public static void main(String[] args) {
+		
+		int a=20;
+		int b=6;
+		
+		if(b==5) {
+			throw new ArithmeticException();
+		}else {
+			System.out.println(a/b);
+		}
+	}
+
+}

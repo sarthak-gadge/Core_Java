@@ -1,0 +1,26 @@
+package constructorHomework;
+
+public class MainEmpManDevTest {
+	
+	public static void main(String[] args) {
+		
+		Manager m1 = new Manager(25000,4562,2514,7000);
+		int mansal = m1.CalculateSalary();
+		System.out.println("manager salary is: "+mansal);
+		
+		
+		
+		Developer d1 = new Developer(25000,1526,8965,2000);
+		int devsal = d1.CalculateSalary();
+		System.out.println("Developer salary is: "+devsal);
+		
+		
+		
+		Tester t1 = new Tester(25000,5642,1254,4000);
+		int testsal = t1.CalculateSalary();
+		System.out.println("Tester Salary is: "+testsal);
+		
+		
+	}
+
+}
