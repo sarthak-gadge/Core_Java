@@ -1,0 +1,35 @@
+package Collection;
+
+import java.util.Stack;
+
+public class Staccckkk {
+	
+	public static void main(String[] args) {
+		
+		Stack<Integer> stack = new Stack();
+		
+		stack.add(34);
+		stack.push(45);
+		stack.push(98);
+		stack.push(12);
+		stack.push(76);
+		stack.push(23);
+		
+		System.out.println(stack);
+		
+		System.out.println("element by peek :"+stack.peek());
+		System.out.println(stack);
+		
+		System.out.println("element by pop :"+stack.pop());
+		System.out.println(stack);
+		
+		System.out.println("element bu search :"+stack.search(76));
+		System.out.println(stack);
+		
+		System.out.println("element by remove :"+stack.remove(34));
+		System.out.println(stack);
+		
+		
+	}
+
+}

@@ -6,4 +6,6 @@
     <fullyQualifiedTypeName name="ToStringMethod.MyDate"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.awt.geom.Area"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy"/>
 </qualifiedTypeNameHistroy>

@@ -1,5 +1,7 @@
 package constructorHomework;
 
+import java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy;
+
 public class MainEmpManDevTest {
 	
 	public static void main(String[] args) {

@@ -1,0 +1,24 @@
+package Collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
+public class Sorting {
+	public static void main(String[] args) {
+
+		LinkedList<String> list = new LinkedList();
+
+		list.add("japan");
+		list.add("canada");
+		list.add("South Africa");
+		list.add("australia");
+		list.add("nepal");
+		
+		System.out.println(list);
+		Collections.sort(list);
+		System.out.println(list);
+	}
+
+}
