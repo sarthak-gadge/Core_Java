@@ -3,6 +3,8 @@ package Collection;
 import java.util.Set;
 import java.util.TreeSet;
 
+// set :- type 2:- TreeSet.
+
 public class TreeeSett {
 	
 	public static void main(String[] args) {

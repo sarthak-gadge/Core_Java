@@ -1,6 +1,10 @@
+
 package Collection;
 
 import java.util.ArrayList;
+
+//List :-- 1.ArrayList.
+
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;

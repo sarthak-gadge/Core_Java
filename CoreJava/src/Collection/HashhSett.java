@@ -2,6 +2,8 @@ package Collection;
 
 import java.util.HashSet;
 
+//set :- type 1:- HashSet.
+
 public class HashhSett {
 	
 	public static void main(String[] args) {

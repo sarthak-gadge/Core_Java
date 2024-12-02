@@ -1,6 +1,10 @@
 package Collection;
 
 import java.util.Collections;
+
+//List :-- 2.LinkedList.
+
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -8,7 +12,7 @@ public class LinkeeeedLIsttt {
 	
 	public static void main(String[] args) {
 
-		LinkedList<String> list = new LinkedList();
+		LinkedList<String> list = new LinkedList<String>();
 
 		list.add("japan");
 		list.add("canada");
@@ -28,6 +32,8 @@ public class LinkeeeedLIsttt {
 		Collections.sort(list);
 		
 		System.out.println(list);
+		
+		
 	}
 
 }

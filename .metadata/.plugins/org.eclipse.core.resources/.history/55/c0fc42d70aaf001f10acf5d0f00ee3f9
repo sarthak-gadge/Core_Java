@@ -1,0 +1,47 @@
+package Collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import Reflection.Employee;
+
+public class UserDefine {
+	
+	public static void main(String[] args) {
+		
+//		donhi way ni vapru shkato apan (2 ways ahet).
+		
+		List<Employee> empList = new ArrayList<Employee>();
+		
+		
+		Employee emp1 = new Employee(123,"Sarthak",85000);
+		empList.add(emp1);
+		
+		Employee emp2 = new Employee(456,"Sanket",92000);
+		empList.add(emp2);
+		
+		Employee emp3 = new Employee(789,"Ravi",78000);
+		empList.add(emp3);
+		
+		empList.add(new Employee(147,"Sagar",88000));
+		
+		empList.add(new Employee(258,"Prasad",50000));
+		
+		empList.add(new Employee(369,"Sameer",99000));
+		
+		
+		System.out.println("=================Unsorted Employee List=====================");
+		
+		for(Employee emp:empList) {
+			System.out.println(emp);
+		}
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		return "UserDefine []";
+	}
+
+}

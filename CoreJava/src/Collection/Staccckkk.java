@@ -2,11 +2,15 @@ package Collection;
 
 import java.util.Stack;
 
+
+//List :-- 3.Vector cha type(Stack)."Stack is subclass of vector "LIFO""
+
+
 public class Staccckkk {
 	
 	public static void main(String[] args) {
 		
-		Stack<Integer> stack = new Stack();
+		Stack<Integer> stack = new Stack<Integer>();
 		
 		stack.add(34);
 		stack.push(45);

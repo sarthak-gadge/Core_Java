@@ -1,6 +1,6 @@
 package Reflection;
 
-public class Employee {
+public class Employee implements Comparable<Employee> {
 
 	private int empid;
 	private String empName;
@@ -25,6 +25,11 @@ public class Employee {
 		return empName;
 	}
 
+	@Override
+	public String toString() {
+		return "Employee [empid=" + empid + ", empName=" + empName + ", empsalary=" + empsalary + "]";
+	}
+
 	public void setEmpName(String empName) {
 		this.empName = empName;
 	}
@@ -36,5 +41,29 @@ public class Employee {
 	public void setEmpsalary(double empsalary) {
 		this.empsalary = empsalary;
 	}
+
+	@Override
+//	sorted by name.
+	public int compareTo(Employee o) {
+		return empName.compareTo(o.empName);	
+	}
+	
+	
+
+//	@Override
+//	public int compareTo(Employee o) {
+////		by sorting id.
+//		if(this.empid>o.empid) {
+//			return 1;
+//		}else if(this.empid<o.empid) {
+//			return -1;
+//		}else {
+//			return 0;
+//	}
+//}
+	
+	
+	
+	
 
 }
