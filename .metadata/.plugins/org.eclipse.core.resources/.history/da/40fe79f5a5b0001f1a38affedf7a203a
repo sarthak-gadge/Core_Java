@@ -1,0 +1,16 @@
+package EmployeeeeManagementtttSystemmmm;
+
+public class Employee {
+	private int empId;
+	private String empName;
+	private double empBasicSal;
+	private double empHRA;
+	private double PF;
+	
+	
+	
+	
+	
+	
+	
+}

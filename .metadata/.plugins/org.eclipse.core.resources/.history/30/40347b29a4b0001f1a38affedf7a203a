@@ -1,0 +1,13 @@
+package Collections2;
+
+import java.util.Hashtable;
+import java.util.Map;
+
+public class HashTableee {
+	
+	public static void main(String[] args) {
+		
+		Map<String,Long> phoneDirectory = new Hashtable<String,Long>();
+	}
+
+}

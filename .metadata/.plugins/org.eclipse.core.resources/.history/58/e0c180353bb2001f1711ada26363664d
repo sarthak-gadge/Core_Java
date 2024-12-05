@@ -1,0 +1,14 @@
+package FileHandling;
+
+public class StudentSerializableee {
+	
+	public static void main(String[] args) {
+		
+		String filePath  = "C:\\Users\\sarthak\\Desktop\\file2.txt";
+		
+		
+		
+	
+	}
+
+}

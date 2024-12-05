@@ -1,0 +1,25 @@
+package FileHandling;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class StudentSerializableee {
+	
+	public static void main(String[] args) {
+		
+		String filePath  = "C:\\Users\\sarthak\\Desktop\\file2.txt";
+		
+		try {
+			FileOutputStream fout = new FileOutputStream(filePath);
+	
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+	
+	}
+
+}

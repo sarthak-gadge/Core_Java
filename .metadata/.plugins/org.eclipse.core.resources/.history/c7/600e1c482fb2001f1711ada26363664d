@@ -1,0 +1,26 @@
+package FileHandling;
+
+import java.io.File;
+
+public class FileInfo {
+	
+
+	public static void main(String[] args) {
+		
+		String filePath = "C:\\Users\\sarthak\\Desktop\\fil.txt";
+		
+		File file = new File(filePath);
+		
+		if(file.exists()) {
+			System.out.println("file is Preasent.");
+			System.out.println("File Name: "+file.getName());
+			System.out.println("File Path: "+file.getAbsolutePath());
+			System.out.println("Can Read: "+file.canRead());
+			System.out.println("Can Write: "+file.canWrite());
+			System.out.println("Can Execute: "+file.canExecute());
+		}else {
+			System.out.println("file is not present");
+		}
+	}
+
+}
