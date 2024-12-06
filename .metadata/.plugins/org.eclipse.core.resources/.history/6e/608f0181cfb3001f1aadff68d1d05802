@@ -1,0 +1,45 @@
+package MultiThreading;
+
+public class ATMTransaction extends Thread{
+	
+	Account ac;
+	double amount;
+	String flag;
+	
+	public ATMTransaction(Account ac, double amount, String flag) {
+		super();
+		this.ac = ac;
+		this.amount = amount;
+		this.flag = flag;
+	}
+	
+	@Override
+	public void run() {
+		if(flag.equals("withraw"))
+			try {
+				ac.withdraw(amount);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Account ac = new Account(12345,"Sarthak Gadge",10000.00);
+		Thread t1 = new ATMTransaction(ac,2000.00,"withdraw");
+		Thread t2 = new ATMTransaction(ac,3000.00,"Deposite");
+		
+		t1.start();
+		t2.start();
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}
